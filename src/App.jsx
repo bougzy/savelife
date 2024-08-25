@@ -12,6 +12,8 @@ import FAQ from './FAQ';
 import Donate from './Donate';
 import Footer from './Footer';
 import ProgramsSection from './ProgramSection';
+import AboutUs from './About';
+import TawkToChat from './TawkToChat';
 
 function App() {
   return (
@@ -28,7 +30,9 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/pro" element={<ProgramsSection />} />
+          <Route path="/about" element={<AboutUs />} />
         </Routes>
+        <TawkToChat />
           <Footer />
       </div>
     </>

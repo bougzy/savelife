@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 const AboutUs = () => {
   return (
     <Container>
@@ -68,7 +68,7 @@ const AboutUs = () => {
         <Col>
           <h2>Join Us</h2>
           <p>We believe that everyone has the power to contribute to the greater good. Whether through a donation, volunteering, or simply spreading the word, your involvement can make a tremendous difference. Together, we can save lives, one step at a time.</p>
-          <Button variant="primary" size="lg">Get Involved</Button>
+          <Button variant="primary" size="lg"><Link to="/donate" className="text-white">Get Involved</Link></Button>
         </Col>
       </Row>
     </Container>

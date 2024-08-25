@@ -1,0 +1,70 @@
+/* General Styles */
+.section {
+    margin-top: 2rem;
+    padding: 2rem 0;
+  }
+  
+  .section h1, .section h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Button Styles */
+  .btn-lg {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  /* Card Styles */
+  .card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hero Section */
+  .carousel-item {
+    height: 60vh;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+  }
+  
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .btn-lg {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  
+    .carousel-item {
+      height: 40vh;
+    }
+  }
+  

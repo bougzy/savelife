@@ -1,10 +1,13 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import sv from "./assets/sv.jpeg"
 
 const Navigation = () => (
   <Navbar bg="dark" variant="dark" expand="lg">
-    <Navbar.Brand as={Link} to="/" className="bg-secondary rounded-4 mx-4 fw-bold p-3">Save A Life</Navbar.Brand>
+    <Navbar.Brand as={Link} to="/" className="mx-4 fw-bold p-3">
+    <img src={sv} className="" style={{maxWidth:"100px"}}/>
+    </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
